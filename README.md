@@ -1,1 +1,1 @@
-#FELIX ES UN SIMPLE CLIENTE PARA PAWSIES 
+#Felix is a client for pawsies, written in python 
