@@ -31,8 +31,8 @@ def water(sensor):
         volumen = 100 - ((consumido * 100) / 15000)
         value = str (volumen)
         redondeo = value [:4]
-        return redondeo
+        print (redondeo)
 
 
      else:
-         print "Incorrect usonic() function varible."
+         print ("Incorrect usonic() function varible.")
