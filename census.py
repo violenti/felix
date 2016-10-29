@@ -31,9 +31,8 @@ def water(sensor):
         volumen = 100 - ((consumido * 100) / 15000)
         value = str (volumen)
         redondeo = value [:4]
-        print redondeo
-        #agregar query sqlite
+        return redondeo
+
 
      else:
-        print "Incorrect usonic() function varible."
-
+         print "Incorrect usonic() function varible."
