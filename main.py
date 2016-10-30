@@ -20,7 +20,8 @@ while base() == 0:
     cursor= pawsdb.cursor()
     valu= water(0) #import water from census, create test diff to 0
     value=str(valu)
-    Date=datetime.now().isoformat()
+    print(value)
+    Date=datetime.datetime.now().isoformat()
     Pet='56596fe86154f0f0746ca456' #this value is hardcode, have to get of a table
     cursor.execute('''insert  into water (level) values(?),(value,),(date) values(?),(Date,),(petId) values(?),(Pet,)''')
     pawsdb.commit()
