@@ -23,6 +23,6 @@ while base() == 0:
     print(value)
     Date=datetime.datetime.now().isoformat()
     Pet='56596fe86154f0f0746ca456' #this value is hardcode, have to get of a table
-    cursor.execute("insert  into water (level) values(?),(value,),(date) values(?),(Date,),(petId) values(?),(Pet,)")
+    cursor.execute("INSERT INTO water VALUES( (level) values(?),(value,),(date) values(?),(Date,),(petId) values(?),(Pet,) ) ")
     pawsdb.commit()
     time.sleep(60)#stop 60 seconds
